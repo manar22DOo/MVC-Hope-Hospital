@@ -11,7 +11,7 @@
             <div class="card-description">
             </div>
             <div class="card-description">
-                <a href="/PatientAppointment/Form" class="btn btn-gradient-primary btn-fw">Add an New Appointment</a>
+@*                 <a href="/PatientAppointment/Form" class="btn btn-gradient-primary btn-fw">Add an New Appointment</a> *@
             </div>
             <table id="order-listing" class="table table-striped">
                 <thead>
@@ -51,9 +51,9 @@
                                 <a asp-action="Delete" asp-controller="PatientAppointment" asp-route-id="@x.ID" class="btn btn-gradient-info btn-fw">Delete</a>
                             </td>
                             <td>
-                                <a asp-action="Details" asp-controller="Checkout" asp-route-id="@x.DeptId" class="btn btn-gradient-info btn-fw">PayNow</a>
+                                <a asp-action="Index" asp-controller="Checkout" asp-route-id="@x.DeptId" class="btn btn-gradient-info btn-fw">PayNow</a>
                             </td>
-
+                            
 
                         </tr>
                     }
@@ -61,6 +61,7 @@
 
                 </tbody>
             </table>
+            <a asp-action="Index" class="btn btn-danger">New Appointment</a>
         </div>
     </div>
 </div>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6baiF6yqP0uNdHJSzForoQAAAAACAAAAAAAQZgAAAAEAACAAAABt3ZTchdcozBpJccBMiyRKssLmRM66FvQ1nNTNI22elwAAAAAOgAAAAAIAACAAAAB3jBwyceFCKJWXWltdkRV+fpMcc70ZPHBXqCuGco6jByAAAAD1v7uvvKUxoX312+dNMn17GBhDANj6yp8L5e6RWLKSTEAAAABKP6Pezo5+LXs/4XKVTCwrC47LWUKopeHXqBkaNWVs+a09Vss2uQfs+g6tQi+qhyuH2m+chm3IBIDsE0NuDN8B</EncryptedPassword>
+    <_PublishTargetUrl>ftp://HopeHospital.somee.com/www.HopeHospital.somee.com</_PublishTargetUrl>
+    <History>False|2024-10-24T09:06:13.7442638Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.json">
+      <publishTime>10/24/2024 11:51:08</publishTime>
+    </File>
+    <File Include="EntityFramework.dll">
+      <publishTime>06/16/2024 23:46:24</publishTime>
+    </File>
+    <File Include="EntityFramework.SqlServer.dll">
+      <publishTime>06/16/2024 23:47:04</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>10/18/2022 18:14:58</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

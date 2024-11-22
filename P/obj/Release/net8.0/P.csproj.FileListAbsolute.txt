@@ -264,3 +264,4 @@ D:\Downloads\المبادرة\P\P\obj\Release\net8.0\refint\P.dll
 D:\Downloads\المبادرة\P\P\obj\Release\net8.0\P.pdb
 D:\Downloads\المبادرة\P\P\obj\Release\net8.0\P.genruntimeconfig.cache
 D:\Downloads\المبادرة\P\P\obj\Release\net8.0\ref\P.dll
+D:\Downloads\المبادرة\P\P\obj\Release\net8.0\P.sourcelink.json

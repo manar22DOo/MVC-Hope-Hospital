@@ -20,30 +20,16 @@ namespace WebApplication3.Controllers
         {
             _paypalClient = paypalclient;
         }
-        public IActionResult Details()
-        {
-            ViewBag.DocList = _context.Doctors.ToList();
-            return View();
-        }
+       
         public IActionResult Index(int id)
         {
-            ViewBag.ClientId = _paypalClient.ClientId;
-
-            try
-            {
-                Department dept = _context.Departments.FirstOrDefault(x => x.DeptId == id);
-                ViewBag.DollarAmount = dept.Cost;
-                total = ViewBag.DollarAmount;
-                TotalAmount = total.ToString();
-                TempData["TotalAmount"] = TotalAmount;
-
-            }
-            catch (Exception)
-            {
-
-
-            }
+            var priceL = _context.Departments.FirstOrDefault(d => d.DeptId == id);
+            ViewBag.DollarAmount = priceL.Cost;
+            total = ViewBag.DollarAmount;
+            TotalAmount = total.ToString();
+            TempData["TotalAmount"] = TotalAmount;
             return View();
+          
 
         }
 
@@ -80,6 +66,7 @@ namespace WebApplication3.Controllers
         [HttpPost]
         public async Task<IActionResult> Order(CancellationToken cancellationToken)
         {
+            
             try
             {
                 // set the transaction price and currency

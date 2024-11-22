@@ -2573,6 +2573,14 @@
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
+      "Id": "D:\\Downloads\\المبادرة\\P\\P\\wwwroot\\uploads\\319272c56a0dd0a4d35082cd36ad30c4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\319272c56a0dd0a4d35082cd36ad30c4.jpg"
+    },
+    {
+      "Id": "D:\\Downloads\\المبادرة\\P\\P\\wwwroot\\uploads\\Radiology.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Radiology.jpg"
+    },
+    {
       "Id": "D:\\Downloads\\المبادرة\\P\\P\\wwwroot\\uploads\\WhatsApp Image 2024-08-14 at 2.43.18 PM.jpeg",
       "PackagePath": "staticwebassets\\uploads\\WhatsApp Image 2024-08-14 at 2.43.18 PM.jpeg"
     },
@@ -2583,6 +2591,10 @@
     {
       "Id": "D:\\Downloads\\المبادرة\\P\\P\\wwwroot\\uploads\\doc1.jpg",
       "PackagePath": "staticwebassets\\uploads\\doc1.jpg"
+    },
+    {
+      "Id": "D:\\Downloads\\المبادرة\\P\\P\\wwwroot\\uploads\\doc2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\doc2.jpg"
     },
     {
       "Id": "D:\\Downloads\\المبادرة\\P\\P\\wwwroot\\uploads\\room1.jpg",

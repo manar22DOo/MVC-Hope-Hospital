@@ -264,3 +264,4 @@ D:\Downloads\المبادرة\P\P\bin\Debug\net8.0\Microsoft.Extensions.Dependen
 D:\Downloads\المبادرة\P\P\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Downloads\المبادرة\P\P\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Downloads\المبادرة\P\P\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Downloads\المبادرة\P\P\obj\Debug\net8.0\P.sourcelink.json

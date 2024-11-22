@@ -37,7 +37,7 @@ namespace P.Controllers
                 IdentityResult result = await roleManager.CreateAsync(identityRole);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "AdminLogin");
                 }
                 else
                 {
@@ -74,7 +74,7 @@ namespace P.Controllers
                 {
                     await userManager.AddToRoleAsync(applicationUser, "Admin");
                     await signInManager.SignInAsync(applicationUser, false);
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "AdminLogin");
 
                 }
                 else

@@ -30,10 +30,29 @@ namespace P.Controllers
             var user = await GetCurrentUserAsync();
 
             var patient = _context.Patients.FirstOrDefault(p => p.userId == user.Id);
+
             ViewBag.patientId = patient.PId;
             ViewBag.deptlist = _context.Departments.ToList();
             ViewBag.doclist=_context.Doctors.ToList();
             return View(appointment);
+        }
+        public async Task<IActionResult> Choose()
+        {
+            Appointment appointment = new Appointment();
+            var user = await GetCurrentUserAsync();
+
+            var patient = _context.Patients.FirstOrDefault(p => p.userId == user.Id);
+            List<Appointment> appointments = _context.Appointments.Where(a => a.PatientId == patient.PId).ToList();
+
+
+            if (appointments.Count == 0)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return RedirectToAction("AppView");
+            }
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
